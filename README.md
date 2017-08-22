@@ -2,6 +2,8 @@
 Repository for various GCP tasks automated by Cloud Functions
 
 # GCS to BigQuery to GCS
+Simple data pipeline with a Google Cloud Storage trigger. Modeled after the data/queries used in [this](https://cloud.google.com/solutions/time-series/bigquery-financial-forex) tutorial for analyzing time series data. 
+
 1. CSV is uploaded into GCS bucket
 2. Table created in BigQuery
 3. Data loaded into BigQuery
