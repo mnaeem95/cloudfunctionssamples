@@ -1,0 +1,10 @@
+
+{
+  "name": "bigquery-import-function",
+  "description": "Import data to BigQuery",
+  "main": "app.js",
+  "dependencies": {
+    "@google-cloud/bigquery": "^0.6.0",
+    "@google-cloud/storage": "^1.0.0"
+  }
+}

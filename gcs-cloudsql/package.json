@@ -1,0 +1,11 @@
+
+{
+  "name": "cloudql-import-function",
+  "description": "Import data to Cloud SQL on GCS Trigger",
+  "main": "app.js",
+  "dependencies": {
+    "googleapis": "^20.0.0",
+    "@google-cloud/storage": "^1.0.0",
+    "mysql": "2.13.0"
+  }
+}
